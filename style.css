@@ -714,6 +714,20 @@ html {
   .slider-wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .form-box {
+    flex-direction: column;
+  }
+
+  .map-cotanier,
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-form__input-name,
+  .contact-form__input-email {
+    width: 100%;
+  }
 }
 
 @media (max-width: 1170px) {
@@ -753,6 +767,10 @@ html {
 
   .footer {
     padding: 5rem 2rem;
+  }
+
+  .map {
+    height: 25vh;
   }
 }
 
